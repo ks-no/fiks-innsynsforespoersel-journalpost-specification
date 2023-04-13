@@ -1,0 +1,1 @@
+# fiks-innsyn-journalpost-specification
