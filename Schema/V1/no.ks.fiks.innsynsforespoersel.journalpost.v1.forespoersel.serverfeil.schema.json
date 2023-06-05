@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://no.ks.fiks.innsynsforespoersel.journalpost.v1/forespoersel.serverfeil.schema.json",
+  "title": "Serverfeil",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "errorId": {
+      "type": "string"
+    },
+    "feilmelding": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "errorId",
+    "feilmelding"
+  ]
+}

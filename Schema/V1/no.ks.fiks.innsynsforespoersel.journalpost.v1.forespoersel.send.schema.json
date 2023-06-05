@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://no.ks.fiks.innsynsforespoersel.journalpost.v1/forespoersel.send.schema.json",
+  "title": "SendForespoersel",
+  "definitions": {
+    "Journalpost": {
+      "type": "object",
+      "properties": {
+        "mappeId": {
+          "type": "string"
+        },
+        "systemId": {
+          "type": "string"
+        },
+        "registreringsId": {
+          "type": "string"
+        },
+        "journalpostnummer": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "mappeId",
+        "systemId",
+        "registreringsId",
+        "journalpostnummer"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "fnr": {
+      "type": "string"
+    },
+    "begrunnelse": {
+      "type": "string"
+    },
+    "journalposter": {
+      "description": "InnsynForespoerselJournalpost",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Journalpost"
+      }
+    }
+  },
+  "required": [
+    "fnr",
+    "begrunnelse",
+    "journalposter"
+  ]
+}
