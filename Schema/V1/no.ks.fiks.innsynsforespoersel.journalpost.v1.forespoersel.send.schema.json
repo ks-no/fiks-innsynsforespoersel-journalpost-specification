@@ -14,16 +14,12 @@
         },
         "registreringsId": {
           "type": "string"
-        },
-        "journalpostnummer": {
-          "type": "string"
         }
       },
       "required": [
         "mappeId",
         "systemId",
-        "registreringsId",
-        "journalpostnummer"
+        "registreringsId"
       ]
     }
   },
