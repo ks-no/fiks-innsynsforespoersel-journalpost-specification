@@ -8,10 +8,10 @@
     "status": {
       "type": "string",
       "enum": [
-        "manuellbehandling",
-        "avvist",
-        "ok",
-        "underbehandling"
+        "MANUELLBEHANDLING",
+        "AVVIST",
+        "OK",
+        "UNDERBEHANDLING"
       ]
     },
     "begrunnelse": {
