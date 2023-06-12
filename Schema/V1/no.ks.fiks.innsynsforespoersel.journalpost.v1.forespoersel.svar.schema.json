@@ -8,10 +8,10 @@
     "status": {
       "type": "string",
       "enum": [
-        "MANUELLBEHANDLING",
+        "MANUELL_BEHANDLING",
         "AVVIST",
         "INNVILGET",
-        "UNDERBEHANDLING"
+        "UNDER_BEHANDLING"
       ]
     },
     "begrunnelse": {
