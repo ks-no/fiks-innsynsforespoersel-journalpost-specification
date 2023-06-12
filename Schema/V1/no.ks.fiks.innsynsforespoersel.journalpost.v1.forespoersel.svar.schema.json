@@ -10,7 +10,7 @@
       "enum": [
         "MANUELLBEHANDLING",
         "AVVIST",
-        "OK",
+        "INNVILGET",
         "UNDERBEHANDLING"
       ]
     },
